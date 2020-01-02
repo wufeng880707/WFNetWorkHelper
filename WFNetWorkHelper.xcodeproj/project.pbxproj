@@ -15,9 +15,14 @@
 		73DD354D23B9A43500DC83C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73DD354B23B9A43500DC83C5 /* LaunchScreen.storyboard */; };
 		73DD355823B9A43600DC83C5 /* WFNetWorkHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DD355723B9A43600DC83C5 /* WFNetWorkHelperTests.swift */; };
 		73DD356323B9A43600DC83C5 /* WFNetWorkHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DD356223B9A43600DC83C5 /* WFNetWorkHelperUITests.swift */; };
-		73DD357223B9DD3C00DC83C5 /* CacheKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DD357123B9DD3C00DC83C5 /* CacheKey.swift */; };
-		73DD357423B9E88300DC83C5 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DD357323B9E88300DC83C5 /* CacheManager.swift */; };
-		73DD357823B9F1FA00DC83C5 /* WFNetLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DD357723B9F1FA00DC83C5 /* WFNetLog.swift */; };
+		73DD358523BD97E600DC83C5 /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DD357D23BD97E600DC83C5 /* DownloadManager.swift */; };
+		73DD358623BD97E600DC83C5 /* DaisyNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DD357E23BD97E600DC83C5 /* DaisyNet.swift */; };
+		73DD358723BD97E600DC83C5 /* CacheKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DD357F23BD97E600DC83C5 /* CacheKey.swift */; };
+		73DD358823BD97E600DC83C5 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DD358023BD97E600DC83C5 /* RequestManager.swift */; };
+		73DD358923BD97E600DC83C5 /* UploadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DD358123BD97E600DC83C5 /* UploadManager.swift */; };
+		73DD358A23BD97E600DC83C5 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DD358223BD97E600DC83C5 /* CacheManager.swift */; };
+		73DD358B23BD97E600DC83C5 /* DaisyLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DD358323BD97E600DC83C5 /* DaisyLog.swift */; };
+		73DD358C23BD97E600DC83C5 /* DaisyValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DD358423BD97E600DC83C5 /* DaisyValue.swift */; };
 		CFA6339E86059D8F2D336D7F /* Pods_WFNetWorkHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21BD6B4EBB26F419BA25E05E /* Pods_WFNetWorkHelper.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,9 +60,14 @@
 		73DD355E23B9A43600DC83C5 /* WFNetWorkHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WFNetWorkHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73DD356223B9A43600DC83C5 /* WFNetWorkHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WFNetWorkHelperUITests.swift; sourceTree = "<group>"; };
 		73DD356423B9A43600DC83C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73DD357123B9DD3C00DC83C5 /* CacheKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheKey.swift; sourceTree = "<group>"; };
-		73DD357323B9E88300DC83C5 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
-		73DD357723B9F1FA00DC83C5 /* WFNetLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WFNetLog.swift; sourceTree = "<group>"; };
+		73DD357D23BD97E600DC83C5 /* DownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
+		73DD357E23BD97E600DC83C5 /* DaisyNet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaisyNet.swift; sourceTree = "<group>"; };
+		73DD357F23BD97E600DC83C5 /* CacheKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheKey.swift; sourceTree = "<group>"; };
+		73DD358023BD97E600DC83C5 /* RequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		73DD358123BD97E600DC83C5 /* UploadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UploadManager.swift; path = "../../../../Downloads/DaisyNet-master/DaisyNet/DaisyNet/UploadManager.swift"; sourceTree = "<group>"; };
+		73DD358223BD97E600DC83C5 /* CacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		73DD358323BD97E600DC83C5 /* DaisyLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaisyLog.swift; sourceTree = "<group>"; };
+		73DD358423BD97E600DC83C5 /* DaisyValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaisyValue.swift; sourceTree = "<group>"; };
 		C50E8C14966178F081FCB15F /* Pods-WFNetWorkHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WFNetWorkHelper.release.xcconfig"; path = "Target Support Files/Pods-WFNetWorkHelper/Pods-WFNetWorkHelper.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,7 +122,7 @@
 		73DD353F23B9A42A00DC83C5 /* WFNetWorkHelper */ = {
 			isa = PBXGroup;
 			children = (
-				73DD357023B9A4B000DC83C5 /* WFNetWorkHelper */,
+				73DD357023B9A4B000DC83C5 /* DaisyNet */,
 				73DD354023B9A42A00DC83C5 /* AppDelegate.swift */,
 				73DD354223B9A42A00DC83C5 /* SceneDelegate.swift */,
 				73DD354423B9A42A00DC83C5 /* ViewController.swift */,
@@ -142,14 +152,19 @@
 			path = WFNetWorkHelperUITests;
 			sourceTree = "<group>";
 		};
-		73DD357023B9A4B000DC83C5 /* WFNetWorkHelper */ = {
+		73DD357023B9A4B000DC83C5 /* DaisyNet */ = {
 			isa = PBXGroup;
 			children = (
-				73DD357323B9E88300DC83C5 /* CacheManager.swift */,
-				73DD357123B9DD3C00DC83C5 /* CacheKey.swift */,
-				73DD357723B9F1FA00DC83C5 /* WFNetLog.swift */,
+				73DD357F23BD97E600DC83C5 /* CacheKey.swift */,
+				73DD358223BD97E600DC83C5 /* CacheManager.swift */,
+				73DD358323BD97E600DC83C5 /* DaisyLog.swift */,
+				73DD357E23BD97E600DC83C5 /* DaisyNet.swift */,
+				73DD358423BD97E600DC83C5 /* DaisyValue.swift */,
+				73DD357D23BD97E600DC83C5 /* DownloadManager.swift */,
+				73DD358023BD97E600DC83C5 /* RequestManager.swift */,
+				73DD358123BD97E600DC83C5 /* UploadManager.swift */,
 			);
-			path = WFNetWorkHelper;
+			path = DaisyNet;
 			sourceTree = "<group>";
 		};
 		AAC7D2B70C020C3239B0750E /* Pods */ = {
@@ -344,12 +359,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73DD358623BD97E600DC83C5 /* DaisyNet.swift in Sources */,
+				73DD358A23BD97E600DC83C5 /* CacheManager.swift in Sources */,
 				73DD354523B9A42A00DC83C5 /* ViewController.swift in Sources */,
-				73DD357423B9E88300DC83C5 /* CacheManager.swift in Sources */,
+				73DD358B23BD97E600DC83C5 /* DaisyLog.swift in Sources */,
+				73DD358723BD97E600DC83C5 /* CacheKey.swift in Sources */,
+				73DD358C23BD97E600DC83C5 /* DaisyValue.swift in Sources */,
 				73DD354123B9A42A00DC83C5 /* AppDelegate.swift in Sources */,
-				73DD357823B9F1FA00DC83C5 /* WFNetLog.swift in Sources */,
-				73DD357223B9DD3C00DC83C5 /* CacheKey.swift in Sources */,
+				73DD358823BD97E600DC83C5 /* RequestManager.swift in Sources */,
 				73DD354323B9A42A00DC83C5 /* SceneDelegate.swift in Sources */,
+				73DD358923BD97E600DC83C5 /* UploadManager.swift in Sources */,
+				73DD358523BD97E600DC83C5 /* DownloadManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
